@@ -15,7 +15,7 @@ public class MyfirstdockerappApplication {
 
 	@GetMapping("/msg")
 	public String getMsg() {
-		return "welcome Abhishek and very nice app  Version 2:)";
+		return "welcome Abhishek  this is your first Docker Image:)";
 	}
 
 	@GetMapping("/msg2")
